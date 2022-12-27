@@ -1,0 +1,52 @@
+body   {display: flex;  
+        justify-content: center; }
+
+div    { box-sizing: border-box;
+         position: absolute;
+         width: 718px;
+         height: 748px;
+         top: 52px;
+         background: #FFFFFF;
+         border: 1px solid #F2F2F2;
+         border-radius: 10px;
+         align-items: center;
+         justify-content: center;
+         padding-left: 51px;
+         padding-right: 51px;}
+
+button {background-color: yellow;
+        width: 205px;
+        height: 47px;
+        border-radius: 10px; 
+        margin-left: 412px;
+        margin-top: 13px; }
+
+.about  { height: 148px ;}
+
+
+input  { background: #FFFFFF;
+         border: 1px solid #E5E5E5;
+         border-radius: 10px;
+         box-sizing: border-box;
+         width: 616PX;
+         height: 50px;
+         font-size: 16x;
+        }
+
+
+h2     {Width:  191px;
+        Height: 43px;
+        margin-top: 40px;
+    } 
+
+label    { margin-bottom: 0;
+           margin-top: 13px; 
+           display: block;
+           font-weight: 700;
+           font-size: 16px;}
+
+
+
+
+
+
