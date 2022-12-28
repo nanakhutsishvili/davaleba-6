@@ -39,11 +39,18 @@ h2     {Width:  191px;
         margin-top: 40px;
     } 
 
-label    { margin-bottom: 0;
-           margin-top: 13px; 
-           display: block;
-           font-weight: 700;
-           font-size: 16px;}
+label  { margin-bottom: 0;
+        margin-top: 13px; 
+        display: block;
+        font-weight: 700;
+        width: 191px;
+        font-family: 'FiraGO';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+       }
 
 
 
