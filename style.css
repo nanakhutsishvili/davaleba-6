@@ -28,11 +28,14 @@ p       { width: 68px;
         margin-bottom: 19px;
         margin-left: 81px; }
 
-button { margin-top: 13px;
+button { display: flex;  
+        justify-content: center; 
+        margin-top: 13px;
         width: 205px;
         height: 47px;
         background: #FFDD04;
-        border-radius: 10px; }
+        border-radius: 10px;
+        align-items: center; }
 
 .about  { box-sizing: border-box;
         font-size: 16x;
@@ -50,6 +53,7 @@ input  { box-sizing: border-box;
          background: #FFFFFF;
          border: 1px solid #E5E5E5;
          border-radius: 10px;
+         padding-left: 18px;
         }
 
 
