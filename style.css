@@ -1,5 +1,6 @@
 body   {display: flex;  
-        justify-content: center; }
+        justify-content: center; 
+        background: #1E1E1E; }
 
 div    { box-sizing: border-box;
          position: absolute;
@@ -14,45 +15,79 @@ div    { box-sizing: border-box;
          padding-left: 51px;
          padding-right: 51px;}
 
-button {background-color: yellow;
+p       { width: 68px;
+        height: 14px;
+        font-family: 'FiraGO';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        margin-top: 14px;
+        margin-right: 56px;
+        margin-bottom: 19px;
+        margin-left: 81px; }
+
+button { margin-top: 13px;
         width: 205px;
         height: 47px;
-        border-radius: 10px; 
-        margin-left: 412px;
-        margin-top: 13px; }
+        background: #FFDD04;
+        border-radius: 10px; }
 
-.about  { height: 148px ;}
+.about  { box-sizing: border-box;
+        font-size: 16x;
+        width: 616px;
+        height: 148px; 
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        border-radius: 10px; }
 
 
-input  { background: #FFFFFF;
+input  { box-sizing: border-box;
+         font-size: 16x;
+         width: 616px;
+         height: 50px;
+         background: #FFFFFF;
          border: 1px solid #E5E5E5;
          border-radius: 10px;
-         box-sizing: border-box;
-         width: 616PX;
-         height: 50px;
-         font-size: 16x;
         }
 
 
 h2     {Width:  191px;
         Height: 43px;
         margin-top: 40px;
-    } 
-
-label  { margin-bottom: 0;
-        margin-top: 13px; 
-        display: block;
-        font-weight: 700;
-        width: 191px;
         font-family: 'FiraGO';
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
-        line-height: 19px;
-        color: #000000;
-       }
+        font-size: 26px;
+        line-height: 31px;
+        color: #000000; } 
 
+label    { margin-bottom: 0;
+           margin-top: 13px; 
+           display: block;
+           font-weight: 700;
+           width: 191px;
+           font-family: 'FiraGO';
+           font-style: normal;
+           font-weight: 700;
+           font-size: 16px;
+           line-height: 19px;
+           color: #000000;
+          }
 
+::placeholder { position: absolute;
+                width: 191px;
+                height: 14px;
+                font-family: 'FiraGO';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #E7E7E7;
+                padding-top: 18px;
+                padding-bottom: 18px;
+                }
 
 
 
