@@ -1,6 +1,10 @@
+@font-face {
+        font-family: 'FiraGO';
+        src: url("./fonts/FiraGO-Regular.ttf");
+}
+
 body   {display: flex;  
-        justify-content: center; 
-        background: #1E1E1E; }
+        justify-content: center; }
 
 div    { box-sizing: border-box;
          position: absolute;
