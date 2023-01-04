@@ -31,7 +31,8 @@ p       { width: 68px;
         margin-top: 14px;
         margin-right: 56px;
         margin-bottom: 19px;
-        margin-left: 81px; }
+        margin-left: 81px;
+        text-align: center; }
 
 button { display: flex;  
         justify-content: center; 
@@ -40,8 +41,9 @@ button { display: flex;
         width: 205px;
         height: 47px;
         background: #FFDD04;
-        border-radius: 10px;
         align-items: center; 
+        border-radius: 10px;
+
         }
 
 textarea  { box-sizing: border-box;
