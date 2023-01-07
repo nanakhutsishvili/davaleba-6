@@ -10,7 +10,6 @@ body   {display: flex;
 div    { box-sizing: border-box;
          position: absolute;
          width: 718px;
-         height: 748px;
          top: 52px;
          background: #FFFFFF;
          border: 1px solid #F2F2F2;
@@ -18,7 +17,8 @@ div    { box-sizing: border-box;
          align-items: center;
          justify-content: center;
          padding-left: 51px;
-         padding-right: 51px;}
+         padding-right: 51px;
+        padding-bottom: 24px;}
 
 
 
@@ -32,6 +32,7 @@ button { display: flex;
         border-radius: 10px;
         align-items: center; 
         border-color: #FFDD04;
+        border: 1px solid #FFDD04;
         }
 
 textarea  { box-sizing: border-box;
@@ -108,3 +109,6 @@ label    { margin-bottom: 0;
 option   { color: black; }
 
 .country  {color: #E7E7E7;}
+
+div      { padding-bottom:24px ;
+        margin-bottom: 50px; }
