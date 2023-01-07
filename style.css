@@ -20,19 +20,7 @@ div    { box-sizing: border-box;
          padding-left: 51px;
          padding-right: 51px;}
 
-p       { width: 68px;
-        height: 14px;
-        font-family: 'FiraGO';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 19px;
-        color: #000000;
-        margin-top: 14px;
-        margin-right: 56px;
-        margin-bottom: 19px;
-        margin-left: 81px;
-        text-align: center; }
+
 
 button { display: flex;  
         justify-content: center; 
@@ -41,9 +29,9 @@ button { display: flex;
         width: 205px;
         height: 47px;
         background: #FFDD04;
-        align-items: center; 
         border-radius: 10px;
-
+        align-items: center; 
+        border-color: #FFDD04;
         }
 
 textarea  { box-sizing: border-box;
@@ -53,7 +41,7 @@ textarea  { box-sizing: border-box;
         background: #FFFFFF;
         border: 1px solid #E5E5E5;
         border-radius: 10px;
-        padding: 18px; }
+       }
 
 
 input  { box-sizing: border-box;
@@ -68,14 +56,14 @@ input  { box-sizing: border-box;
 
 
 select  { box-sizing: border-box;
-        font-size: 16x;
+        font-size: 16px;
         width: 616px;
         height: 50px;
         background: #FFFFFF;
         border: 1px solid #E5E5E5;
         border-radius: 10px;
         padding-left: 18px;
-        color: #E7E7E7;
+        color: black;
         }
 
 
@@ -102,6 +90,7 @@ label    { margin-bottom: 0;
            color: #000000;
           }
 
+
 ::placeholder { position: absolute;
                 width: 191px;
                 height: 14px;
@@ -112,7 +101,10 @@ label    { margin-bottom: 0;
                 line-height: 19px;
                 color: #E7E7E7;
                 padding-top: 18px;
-                padding-bottom: 18px;
                 }
 
 .black  {color: black}
+
+option   { color: black; }
+
+.country  {color: #E7E7E7;}
